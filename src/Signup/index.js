@@ -49,7 +49,7 @@ export default function Signup() {
     }
     console.log("userDetails ::::", userDetails);
     const response = await jwtAxios.post("/create/createAccount",userDetails);
-    console.log("ressss", response);
+    console.log("response", response);
   }
 
   return (
